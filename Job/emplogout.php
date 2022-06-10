@@ -1,0 +1,19 @@
+
+<html>
+<head>
+	<?php 
+	session_start();
+	if(isset($_SESSION["empid"]))
+	{
+		session_destroy();
+		header('location:index.php');
+	}
+	else
+	{
+		header('location:index.php');	
+	}
+	?>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,412 @@
+
+
+				Computer / PC Game Hacking
+
+Locate the GamerProfile.xml file in the Documents > My Games > GTA
+Open it with Notepad, Wordpad or any editor of your choice
+Find the line <GameProfile /> and replace it with 
+< GameProfile UnlimitedAmmo="1" GodMode="1" />
+Save the file then right click on it, click on properties, 
+check the Read-only box and click Apply. 
+This will lock the changes otherwise you will have to change it every time you save the settings (Save from main menu).
+To disable any of the options instead of 1 (enabled) you put 0 (disabled).
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+			How to change the Logon Screen Windows - 7
+
+1. Start>run>regedit.
+2. Right Click on HKEY_LOCAL_MACHINE and select Find OEMBackground,
+
+ Path-->  HKEY_LOCAL_MACHINE>SOFTWARE>Microsoft>Windows>CurrentVersion>
+   	  Authentication>LogonUI>Background.
+
+3. If the key does not exist, add a new DWORD value with the name
+   OEMBackground.
+4. Double click on the entry OEMBackground, and change the value from 0 to 1.
+5. Go to the following path: C:\Windows\system32\oobe
+6. Create a new folder named Info (or open it if already created).
+7. Create new folder named backgrounds in Info (or open it if already created)
+8. Rename your desire wallpaper as backgroundDefault.jpg and place it  inside 
+   the folder backgrounds (image must be less than 245KB in size).
+9. Log off [Win+L] or reboot and Enjoy.
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+			How To Block Web Site On Any Local Pc
+
+1. Open folder where windows is installed Windows>system32>drivers>etc.
+2. You have to open the host file with notepad, 
+	but some time file is giving error while saving the file.
+3. So, open the notepad as an Administrator, and then open the file from given location.
+4. Now come at end of the page and type this 
+	127.0.0.2 WWW.facebook.com
+	127.0.0.3 facebook.com
+5. You can add as many as you want.
+6. Now save The File.
+7. Open any browser as your wish.
+8. Open the website - It will note open. 
+
+				Now how to access the website 
+
+1. Type in google --> Free Proxy Server
+2. Open any of the site you like as listed below.
+3. Now open your website you want, which were block for your pc.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+				How to copy any page of Website
+
+1. Open Browser and Open your appropriate website.
+2. After Successfull loading the page press ( CTRL+U ).
+3. It will open the html coding in another tab, Press ( CTRL+A )( CTRL+C ).
+4. Now open Notepad paste the code here.
+
+5. Save the file as filename.html and 
+	select ( UTF-8 ) option from the Encoding drop down menu.
+
+6. Now Press the save option.
+
+		To see
+ Open the file in any browser.
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+				How To Hide Data Behind Image 
+
+1. Choose the file/data to hide behind the image and transfer it in (.rar) format.
+2. Choose the image in which you want to hide the data.
+3. Place both files (image and data)at one palce. 
+4. Open command prompt as administrator.
+5. Go to palce where the data is kept in cmd.
+6. Type --> copy /b imagename.jpg + filename.rar finalname.jpg		Press Enter.
+7. Thus the finalname.jpg file will be create containing same image and 
+						having data behind it.
+	
+			Unhide
+8. Open Winrar.
+9. Now find your image and open it or easily drag your image in winrar.
+10. Extract the file and done.
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+			How To Remove The Password Without Knowing Old Password
+
+1. Open command prompt as administrator.
+2. Type -->net user
+3. It will display the list of user in your Pc
+4. For Example My user name is (abc) 
+
+5. Type -->net user abc *	press enter.
+
+6. Cmd will ask to enter password, but you cannot type anything there, 
+	just going on pressing enter key till command prompt not comes(c:\Windows\system32>).   
+
+7. After all that cmd will display (The Command completed Successfully).
+8. To See press Win+L from the keyboard or logoff pc from start menu.
+9. The Password Has Successfully removed.
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+			How To Hide The Hard Disk Drive Of Your Pc/Laptop
+
+1. Open command prompt as administrator.
+2. Type -->diskpart 		press enter.
+3. Then prompt will see like ( diskpart> ).
+4. Now Type -->list volume 	press enter.
+5. Select the volume and remember the letter which is before it.
+	which you want to hide then type
+		For Example 
+6. --> select volume 2 		press enter.
+7. Then cmd will Display ( volume 2 is the Selected Volume )
+8. Type --> remove letter d	press enter.
+9. Now You cannot see the drive in my computer.
+
+	Steps Show Up Again
+Repeat Steps 1-7 as it is.
+8. Type --> assign letter d.
+9. Now You can see the drive in my computer.
+
+You can also do with the regedit option.
+-----------------------------------------------------------------------------------------------------------------------------
+
+			How to Hack Wi-Fi Password
+
+1. Open command prompt as administrator
+2. Type Command : Netsh wlan show profiles
+	Where you can see the network list 
+3. Now see the name of network which is connected to your network 
+	for eg. my network name is vvkclg
+4. Type Command : Netsh wlan show profile name = ___________ key=clear
+   Type Command : Netsh wlan show profile vvkclg key=clear
+5. You can see the details of the network connection 
+6. You must see the Security Setting Block Where There Is Keyword named
+
+   Key Content : 12345 is the password which network is conneted to your system.
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+				Big size file creation
+
+1. Start > Search cmd > Right Click > Select "Run as Administrator".
+2. Change Drive Where you want to create new file. E.g. For D Drive D: and Enter.
+
+fsutil file createnew filename.xls 10737418240
+
+Note: - File Size must be in bytes only.
+1 MB = 1048576 bytes
+100 MB = 104857600 bytes
+1 GB = 1073741824 bytes
+10 GB = 10737418240 bytes
+100 GB = 107374182400 bytes
+GB to Byte Converter: http://www.convertunits.com/from/GB/to/byte
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+				Invisible Folder With No Name
+
+1. Create new folder > Rename it, Erase name.
+2. Hold Alt button and press 255 / 0160 From NUM pad > Release and press Enter.
+3. Right click on Folder > Property > Customize tab > Change Icon > Select Blank Icon
+4. Apply > OK
+5. Right click on Folder > Property > Check Hidden checkbox > Apply > OK
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+				Not To Save History Chrome Browser 
+
+1. Open Chrome Browser And Press 
+	Ctrl+Shift+n  It Will Open A New Incognito Tab
+		Or
+2. Click On Customize And Control Google Chrome Option At Top-Right Corner Of The Window
+3. Then Click On The New Incognito Tab
+4. Which will open the new browser window that will not save any type Of History or Cookies
+
+5. Now you can browse privately, and other people who use this device won’t see your activity. 
+6. However, downloads and bookmarks will be saved. 
+
+Chrome won’t save the following information:
+-Your browsing history
+-Cookies and site data
+-Information entered in forms  
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+		How to Shutdown anyone Pc After sometime while someone don't know
+
+1. Open Command Prompt.
+2. Type --> shutdown -s -t (time/sec) to Shutdown.
+3. Type --> shutdown -r -t (time/sec) to Restart.
+4. Type --> shutdown -a to stop this command.
+5. By pressing enter it will give notification press ok.
+6. Close the command Prompt. 
+7. How the computer will shutdown or restart as per the specific time given.
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+		   How To Display CMD At login Screen - While Login The Password
+
+
+1. Open the drive where the windows is installed.
+2. Go to this path --> C:\Windows\System32.
+3. Search for the file name sethc in this folder and rename it as sethc1.
+4. Now Search for the filename CMD in same folder-make a copy of this file in system32 folder.
+5. Rename the copied file as sethc.
+6. To See press Win+L from the keyboard or logoff pc from start menu.
+7. Than go on pressing the Shift key.
+8. You can see the cmd will be open as "Administrator". 
+
+
+
+
+
+
+ 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+				View Expanded "Send To" Menu
+
+--> Press Shift when right-clicking on a folder to get an expanded "Send To" menu.
+
+
+
+				Open CMD from any location
+
+
+1. When you're there to your folder, hold down the shift key while you right-clicking 
+   any where in to folder.
+2. Once the menu  pops-up, you'll notice an entry that's not usually there: 
+    Open CMD Window Here.
+3. You can see the cmd will open as per the folder location.
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+			Watch 3D Movie On PC Using VLC Media Player
+
+
+1. Run 3D Movie in the VLC Player.
+2. After that, click on (tools) and then select the (Effect and Filtering) option from the 
+   drop down menu.
+3. Now click on (Video Effects) tab and in this section click on (Advance Tab).
+4. In this (Advance Tab), put a check mark on (Anaglyph 3D) option.
+5. Now you are ready for (Watching 3D Movies In The Computer).
+6. Now just put your Red/Cyan 3D glasses and Enjoy Your 3D Movie.
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+		Please Subscribe My Channel And Press the Bell Icon 
+
+
+
+			How To Add Any Font In Computer
+
+
+
+1. Open Control Panel and set the control panel ( view by : large Icon).
+2. Where you can see the font Folder Icon.
+3. Click that icon, it will open the all fonts listed.
+4. Now copy your font and paste it here.
+
+	eg. I am adding Gujarati Font name: nilkhant
+		
+5. Now you can access the Font at any of place.
+
+
+
+
+
+
+
+
+
+
+
+Thanks For Watching 
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+To see the laptop serial number  
+
+WMIC BIOS GET SERIALNUMBER
+-----------------------------------------------------------------------------------------------------------------------------
+				Useful Website Links 
+
+1.  https://smallpdf.com/	All PDF Solutions.
+2.  http://www.clipconverter.cc/	YouTube Free videos downloads and Convert.
+3.  https://www.you.dj/	Online DJ.
+4.  https://www.whatfontis.com/	Font Identifier.
+5.  http://www.screencast-o-matic.com/	Screen Recorder.
+6.  http://www.pngtree.com/	PNG images for free download.
+7.  http://www.pixabay.com/	Free High Quality Images.
+8.  https://www.stocksnap.io/	Beautiful free stock photos.
+9.  http://www.qr-code-generator.com/	Free QR Code Generator.
+10. https://web.whatsapp.com/	Run your WhatsApp On PC or Browser.
+11. http://www.freepngimg.com	Free PNG Images.
+12. https://www.google.com/android/devicemanager	Android Device Manager.
+13. https://www.instructables.com/	Best Step By Step Instructables.
+14. http://www.alertful.com/	Free Alerts.
+15. https://search.google.com/test/mobile-friendly	Google Free Service for checking Is your web page mobile-friendly?
+16. https://dictation.io/	Speech to Text on Better Way.
+17. https://desygner.com/	Canva Alternative.
+18. https://www.usethistip.com	Technologies Updates.
+19. https://myactivity.google.com/myactivity	Your All Google Activity.
+20. https://www.iconfinder.com/	Free 3D PNG Icons.
+21. http://www.123apps.com/	Record Online Audio/video.
+22. http://www.nsfwyoutube.com/	YouTube Login Bypass and Bypass Age Restriction.
+23. http://convertico.com/	PNG to ICO Conversion.
+24. https://photolab.me/	Photo Lab.
+25. http://srecorder.com/	Free Screen Recorder.
+26. http://www.pdfdrive.net/	Best PDF Book Search Engine.
+27. http://www.copypastecharacter.com	copy special characters that aren't on your keyboard.
+28. http://www.flightstats.com	Track flight status at airports worldwide.
+29. https://www.virustotal.com	scan any suspicious file or email attachment for viruses.
+30. https://www.onlineocr.net/	recognize text from scanned PDFs and images - see other OCR tools.
+31. http://e.ggtimer.com	a simple online timer for your daily needs.
+32. https://tineye.com/	this is like an online version of Google Googles.
+33. http://www.misucell.com/	Top HD Wallpapers.
+34. http://www.freeimages.com/	Free HD Images.
+35. http://filehippo.com/	Free Softwares.
+36. https://color.adobe.com/create/color-wheel/	get color ideas, also extract colors from photographs.
+37. https://www.random.org	pick random numbers, flip coins, and more.
+38. http://www.pdfescape.com/windows/	lets you can quickly edit PDFs in the browser itself.
+39. http://www.sumopaint.com/home/#app	an excellent layer-based online image editor.
+40. https://w3layouts.com/		website layout.
+41. addrope.in 				password-(arjun@dlp).
+42. http://www.funmaza.com/		song and video download.
+43. http://www.hackingmobilephones.com/	website.
+44. https://www.simplilearn.com/ 
+45. https://www.cybrary.it
+46. https://www.differencebtw.com/	To Find Any Difference
+47. https://www.hacking-tutorial.com/#sthash.tMLdsSPT.dpbs	Hacking Tutorial
+48. https://moz.com/top500/pages
+49. https://moz.com/top500
+50. 
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+drfone.apk kingo root
+
+https://kishannakrani203.wixsite.com/technicalskill
